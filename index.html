@@ -120,7 +120,11 @@ We found that uninterrupted students from the Hartford Promise data set are 57 p
           <img src="CodeExample2.png" style="width: 100%; margin: 30px 0">
           <p><i>Image 1: This image shows an example of how the 'interruption' column works.</i></p>
           
-          <p>TThe above image shows  a formula that inputs a 1 whenever there is an interruption among Hartford Promise students. The code will recognize an interruptiuon if BOTH the 'student ID' (column A) is the same as previous one in the same column, AND the 'term code' (column F) is not consecutive. whereas =IF((F3=(F2+1)),0,1) inputs a 0 whenever there is a continuous term and no interruption among Hartford Promise students. The hesitations we have regarding our data is that certain columns were deleted that were present in the original Hartford promise data, and therefore there exists a slight asymmetry among the results of our spreadsheet data and the data we were initially given.</p>
+          <p>TThe above image shows  a formula that inputs a 1 whenever there is an interruption among Hartford Promise students. The code will recognize an interruptiuon if BOTH the 'student ID' (column A) is the same as previous one in the same column, AND the 'term code' (column F) is not consecutive. </p>
+
+          <img src="CodeExample3.png" style="width: 100%; margin: 30px 0">
+          <p><i>Image 2: This image shows an example of how the 'continuous term' column works.</i></p>
+          <p> A continuous term is recognized in column E. A continuous term is recognized by a ‘0’, a ‘1’ will be present if it is a student’s first term enrolled, or first term after a break in enrollment. The hesitations we have regarding our data is that certain columns were deleted that were present in the original Hartford promise data, and therefore there exists a slight asymmetry among the results of our spreadsheet data and the data we were initially given.</p>
 
         </div>
       </div>
