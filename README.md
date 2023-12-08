@@ -1,8 +1,5 @@
-# dataviz-story-template
-DataVizForAll.org story template using modified Bootstrap
+# live view
+https://datavizforall.org/hartfordpromise-bradley-kirk/
 
-## Live view (replace with your own published link in Settings > Pages)
+## forked from original
 https://cbradisrad.github.io/HP-data-story/
-
-## Instructions
-Read steps inside the `index.html` file
